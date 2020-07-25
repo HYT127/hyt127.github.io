@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hyt127.github.io</id>
     <title>Gridea</title>
-    <updated>2020-07-25T14:09:24.072Z</updated>
+    <updated>2020-07-25T14:10:45.309Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hyt127.github.io"/>
     <link rel="self" href="https://hyt127.github.io/atom.xml"/>
@@ -17,6 +17,97 @@
         </link>
         <updated>2020-07-25T12:04:02.000Z</updated>
         <content type="html"><![CDATA[<p>这个东西目前还很是不熟悉，先建个先行版。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Goindex ]]></title>
+        <id>https://hyt127.github.io/post/goindex/</id>
+        <link href="https://hyt127.github.io/post/goindex/">
+        </link>
+        <updated>2020-07-25T11:12:18.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="简述">简述</h1>
+<p>由于别人用Goindex不用翻，所以我也想弄下这个，刚好，又有谷歌无限盘Gsuit和域名，所以来体验下。<br>
+首先，这是基于Gandi的域名的教程。然后没有用到服务器，我还以为必须要服务器。我的参考 是以下两个网址。1. https://www.coolapk.com/feed/20085606?shareKey=OTJlMWM4YzA2MTIwNWYxYjkzMzM~&amp;shareUid=3041562&amp;shareFrom=com.coolapk.market_10.4<br>
+2.https://www.daniao.org/6475.html</p>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="简述">简述</h1>
+<p>由于别人用Goindex不用翻，所以我也想弄下这个，刚好，又有谷歌无限盘Gsuit和域名，所以来体验下。<br>
+首先，这是基于Gandi的域名的教程。然后没有用到服务器，我还以为必须要服务器。我的参考 是以下两个网址。1. https://www.coolapk.com/feed/20085606?shareKey=OTJlMWM4YzA2MTIwNWYxYjkzMzM~&amp;shareUid=3041562&amp;shareFrom=com.coolapk.market_10.4<br>
+2.https://www.daniao.org/6475.html</p>
+<!-- more -->
+<h1 id="介绍">介绍</h1>
+<p>可以将 Google Drive 文件以目录形式列出，并直连下载。流量走 CloudFlare ，网速由 CloudFlare 决定。github：https://github.com/donwa/goindex这个被删掉了。</p>
+<!-- more -->
+<h1 id="必要">必要</h1>
+<ol>
+<li>谷歌盘</li>
+<li>cloud flare</li>
+<li>一个域名，不建议用国内厂商的，国内申请的域名要求备案，个人认证无法更改名称服务器（推荐gandi freenom）</li>
+</ol>
+<h1 id="工具">工具</h1>
+<p>1.下载工具GoIndex-theme-acrou 链接：https://github.com/Aicirou/goindex-theme-acrou<br>
+2.上传工具GDIndex 链接：https://github.com/maple3142/GDIndex （这两个工具均可下载，但GDIndex无法加密文件夹，任何人都可下载都可上传）</p>
+<!-- more -->
+<h1 id="步骤">步骤</h1>
+<h1 id="1-解决域名问题得到自己的域名-可以不用自己的邮箱我反正目前没问题-必须验证">1. 解决域名问题，得到自己的域名。可以不用自己的邮箱，我反正目前没问题。必须验证。</h1>
+<!-- more -->
+<h1 id="2申请cloudflare">2.申请CloudFlare</h1>
+<p>可以不用自己的邮箱，我用了我一个没什么用的号，cort。。。那个号。目前没什么问题。必须验证。</p>
+<ol>
+<li>add site 然后没啥要求，然后选择零元计划，看情况选选就行。但是必须要</li>
+</ol>
+<h3 id="域名是申请的那个域名">域名是申请的那个域名</h3>
+<p><img src="https://hyt127.github.io/post-images/1595681266859.png" alt="" loading="lazy"><br>
+<img src="https://hyt127.github.io/post-images/1595681363143.png" alt="" loading="lazy"></p>
+<!-- more -->
+<ol start="2">
+<li>随意添加一个DNS记录，如www指向8.8.8.8 ，这里的用途相当于是为了给域名加前缀的。比如，pan.xxx.xxx或者www.xxx.xxx类似于这样是为了加前缀。要是零DNS则必须要加记录，否则不让你继续。<br>
+<img src="https://hyt127.github.io/post-images/1595681539964.png" alt="" loading="lazy"></li>
+</ol>
+<!-- more -->
+<h1 id="3-1独属于gandi的特殊似乎-这一步-这里要改gandi的名称伺服器服务器英文-然后改成为cloudflare的才能激活cloud-flare对于申请的域名的-保护">3.    1.独属于gandi的特殊，似乎。这一步。这里要改Gandi的名称(伺服器)服务器，英文         。然后改成为cloudflare的才能激活cloud flare对于申请的域名的 保护。</h1>
+<figure data-type="image" tabindex="1"><img src="https://hyt127.github.io/post-images/1595682299649.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>2  ，再回到Gandi里进行更改，然后回到cloud flare进行激活域名。<br>
+<img src="https://hyt127.github.io/post-images/1595682556670.png" alt="" loading="lazy"><br>
+<img src="https://hyt127.github.io/post-images/1595682575019.png" alt="" loading="lazy"><br>
+<img src="https://hyt127.github.io/post-images/1595682651565.png" alt="" loading="lazy"></p>
+<!-- more -->
+<!-- more -->
+<h1 id="4-至关重要的wokers即工人生成-这里无论是先创建工人还是先部署goindex-都行因为工人可以进行编辑-我这里就先创建工人-直接默认创建一会儿再进行工人改名等其他操作">4. 至关重要的Wokers即工人生成。这里无论是先创建工人还是先部署Goindex。都行，因为工人可以进行编辑。我这里就先创建工人。直接默认创建，一会儿再进行工人改名等其他操作。</h1>
+<h1 id="5-部署goindex">5. 部署Goindex,</h1>
+<p>GoIndex-theme-acrou 先给官方说明 www.github.com/Aicirou/goindex-theme-acrou/blob/master/README_zh.md，不想看就<br>
+<img src="https://hyt127.github.io/post-images/1595683595007.png" alt="" loading="lazy"><br>
+（1）打开 install.achirou.workers.dev/zh 或者 查看链接<br>
+（2）授权并获取授权码<br>
+（3）将代码部署到 Cloudflare Workers<br>
+5.1 先点click me 然后得到一串码，然后就复制它，再返回到这里准备填空。这里得是你的要部署的谷歌盘来进行登录，得到如下的<img src="https://hyt127.github.io/post-images/1595683874694.png" alt="" loading="lazy"><br>
+5.2进行填空，得要获得团队盘id<br>
+<img src="https://hyt127.github.io/post-images/1595684071275.png" alt="" loading="lazy"></p>
+<!-- more -->
+<p>site name是你的网站名字，随便取应该就行。<br>
+drive ID 是团队盘的id，如果是个人盘就填root  。<br>
+5.3 团队盘id<br>
+<img src="https://hyt127.github.io/post-images/1595684441540.png" alt="" loading="lazy"><br>
+title填的是site name，不知道有什么区别，大概可以随便填， user name 和 password 默认是留空<br>
+渲染选项建议打开readme ，或者其他应该也行<br>
+启用选项建议打开 .Password 验证，这样可以我的第二个文件夹，要求密码验证。</p>
+<h3 id="生成代码复制粘贴到cloudflare的workers保存并部署-右侧点击预览可以看到你的站点">生成代码，复制粘贴到Cloudflare的Workers，保存并部署 右侧点击预览可以看到你的站点</h3>
+<p><img src="https://hyt127.github.io/post-images/1595684876931.png" alt="" loading="lazy"><br>
+<img src="https://hyt127.github.io/post-images/1595685125171.png" alt="" loading="lazy"></p>
+<!-- more -->
+<ol start="6">
+<li>然后是最难的一点，我开始没搞定看了另一位的博客，才模仿=着填好了。
+<h3 id="61-自定义域名">6.1 自定义域名。。</h3>
+<img src="https://hyt127.github.io/post-images/1595685392631.png" alt="" loading="lazy"></li>
+</ol>
+<!-- more -->
+<h3 id="62-在wokers即工人里添加路由">6.2 在wokers即工人里添加路由。</h3>
+<p>点击【 Workers】之后点击 【Add Route】，输入之前你设定的域名.<img src="https://hyt127.github.io/post-images/1595685720185.png" alt="" loading="lazy"></p>
+<p>然后，就可以通过 pan.xxxx.art进入goindex里了。<br>
+<img src="https://hyt127.github.io/post-images/1595685994326.png" alt="" loading="lazy"></p>
+<!-- more -->
+<h1 id="到这里就搭建完了只要有个域名无需服务器就ok了-下载速度还不错">到这里就搭建完了，只要有个域名，无需服务器就OK了。下载速度还不错。</h1>
 ]]></content>
     </entry>
     <entry>
