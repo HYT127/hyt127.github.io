@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hyt127.github.io</id>
     <title>Gridea</title>
-    <updated>2020-07-25T14:12:33.472Z</updated>
+    <updated>2020-07-25T14:16:03.719Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hyt127.github.io"/>
     <link rel="self" href="https://hyt127.github.io/atom.xml"/>
@@ -103,13 +103,17 @@ title填的是site name，不知道有什么区别，大概可以随便填， us
 <p>然后，就可以通过 pan.xxxx.art进入goindex里了。<br>
 <img src="https://hyt127.github.io/post-images/1595685994326.png" alt="" loading="lazy"></p>
 <!-- more -->
+<p>激活的域名是这样的<img src="https://hyt127.github.io/post-images/1595686488653.png" alt="" loading="lazy"></p>
+<!-- more -->
+<p>不想要的机器人删除<img src="https://hyt127.github.io/post-images/1595686503977.png" alt="" loading="lazy"></p>
+<!-- more -->
 <h1 id="到这里就搭建完了只要有个域名无需服务器就ok了-下载速度还不错">到这里就搭建完了，只要有个域名，无需服务器就OK了。下载速度还不错。</h1>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[基于gridea搭建GitHub静态博客]]></title>
-        <id>https://hyt127.github.io/post/ji-yu-gridea-da-jian-github-jing-tai-bo-ke/</id>
-        <link href="https://hyt127.github.io/post/ji-yu-gridea-da-jian-github-jing-tai-bo-ke/">
+        <id>https://hyt127.github.io/post/jingtai/</id>
+        <link href="https://hyt127.github.io/post/jingtai/">
         </link>
         <updated>2020-07-25T05:06:34.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
